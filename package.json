@@ -4,10 +4,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build & npm run build:css",
+    "build": "vite build",
     "preview": "vite preview",
-	"build:css": "postcss src/styles/tailwind.css -o src/styles/main.css",
-    "watch:css": "postcss src/styles/tailwind.css -o src/styles/main.css --watch"
   },
   "dependencies": {
     "@lottiefiles/react-lottie-player": "^3.4.7",
